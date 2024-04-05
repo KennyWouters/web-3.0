@@ -111,6 +111,7 @@
 .hamburger-menu{
     display: none;
 }
+
 @media (max-width: 768px) {
     .nav {
         display: none; /* Hide the navigation menu by default on small screens */
