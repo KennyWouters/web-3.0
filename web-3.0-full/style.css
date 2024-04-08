@@ -4,23 +4,29 @@ body{
 
     display: flex;
     justify-content: center;
-    max-width: 100vw;
+    max-width: 90vw;
+    max-height: 90vh;
 
 }
 
 .headcenter{
     display: flex;
-    /*width: 100vw*/
+}
 
+h3{
+    font-family: Inter;
 }
 
 header{
     display: flex;
+
 }
+
 .headcontainer{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-top: 2rem;
 }
 
 .hamburger-menu{
@@ -32,7 +38,6 @@ header{
     flex-direction: column;
     justify-content: space-between;
     align-self: center;
-
     width: 2rem;
     height: 1.5rem;
     cursor: pointer;
@@ -65,20 +70,18 @@ li > a {
     display: flex;
     max-width: 67%;
     flex-direction: column;
-    /*flex-wrap: wrap;*/
-
-
 }
 
 .link1{
     display: flex;
     width: 100%;
-
 }
+
 .link2{
     display: flex;
     width: 100%;
 }
+
 .link3{
     display: flex;
     width: 100%;
@@ -90,23 +93,43 @@ li > a {
     justify-content: space-between;
     margin-top: 3rem;
     flex-wrap: wrap;
-
 }
 
 .firstpart > img{
     width: 100%;
 }
 
-
 .submain{
     width: 30%;
     display: flex;
-    color: white;
+    color: hsla(236, 8%, 79%, 1);
     background-color: black;
     flex-direction: column;
-
-
+    justify-content: space-between;
+    line-height: 26px;
+    font-size: 15px;
 }
+
+.titles{
+    font-family: Inter, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: hsla(36, 100%, 99%, 1);
+;
+}
+
+.articles{
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+hr{
+    width: 75%;
+}
+
 .new{
     font-family: Inter, sans-serif;
     font-weight: 700;
@@ -117,12 +140,10 @@ li > a {
     color: hsla(35, 78%, 62%, 1);
 }
 
-.submain h3 {
-    width: 90%;
-    margin-left: 1rem;
-}
+
+
 .submain p{
-    width: 100%;
+    width: 90%;
     margin-left: 1rem;
 }
 .container2{
@@ -181,17 +202,19 @@ li > a {
 
     .submain{
         width: 100%;
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
     .container2{
         flex-wrap: wrap;
+        /*margin-top: 2rem;*/
 
     }
     .container2 .p{
-        /*width: 100%;*/
+
     }
     .footer{
         flex-wrap: wrap;
+        margin-top: 3rem;
 
     }
 
